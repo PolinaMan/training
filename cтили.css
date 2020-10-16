@@ -1,0 +1,260 @@
+.bar{
+    position: absolute;
+    width: 1440px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+}
+ul, li, a {
+    text-decoration: none;
+    display: inline;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(31, 32, 65, 0.5);
+}
+.button1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    background-color: white;
+    color: #BC9CFF;
+    width: 87px;
+    height: 34px;
+    border-radius: 22px;
+    border-color: #BC9CFF;
+
+}
+.button2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    color: white;
+    width: 196px;
+    height: 34px;
+    border-radius: 22px;
+    border: 2px;
+}
+body{
+    background-image: url("image 3.jpg");
+    z-index: 0;
+}
+.logo{
+    position: absolute;
+    width: 105.69px;
+    height: 40px;
+    left: 140px;
+    top: 15px;
+}
+.bar1{
+    position: absolute;
+    width: 42px;
+    height: 18px;
+    left: 531px;
+    top: 26px;
+    font-size: 14px;
+    line-height: 17px;
+}
+.bar2{
+    position: absolute;
+    width: 50px;
+    height: 18px;
+    left: 593px;
+    top: 26px;
+    font-size: 14px;
+    line-height: 17px;
+}
+.bar3{
+    position: absolute;
+    width: 72px;
+    height: 18px;
+    left: 687px;
+    top: 26px;
+}
+.bar4{
+    position: absolute;
+    width: 62px;
+    height: 18px;
+    left: 779px;
+    top: 26px;
+}
+.bar5{
+    position: absolute;
+    width: 92px;
+    height: 18px;
+    left: 861px;
+    top: 26px;
+}
+.bar6{
+    position: absolute;
+    width: 87px;
+    height: 34px;
+    left: 997px;
+    top: 18px;
+}
+.bar7{
+    position: absolute;
+    width: 196px;
+    height: 34px;
+    left: 1104px;
+    top: 18px;
+}
+.rectangle{
+    position: absolute;
+    width: 380px;
+    height: 374px;
+    left: 140px;
+    top: 140px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    z-index: 10;
+}
+legend{
+    position: absolute;
+    width: 320px;
+    height: 60px;
+    left: 30px;
+    top: 40px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px; 
+    color: #1F2041; 
+}
+p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+}
+.arrival{
+    position: absolute;
+    left: 30px;
+    top: 120px;
+}
+.arrival2{
+    position: absolute;
+    left: 30px;
+    top: 144px;
+    width: 150px;
+    height: 44px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+.departure{
+    position: absolute;
+    left: 200px;
+    top: 120px;
+}
+.departure2{
+    position: absolute;
+    left: 200px;
+    top: 144px;
+    width: 150px;
+    height: 44px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+.visit{
+    position: absolute;
+    left: 30px;
+    top: 205px;
+}
+.visit2{
+    position: absolute;
+    left: 30px;
+    top: 229px;
+    width: 320px;
+    height: 44px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(31, 32, 65, 0.75); 
+}
+.button3{
+    position: absolute;
+    left: 30px;
+    top: 304px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    color: white;
+    width: 320px;
+    height: 44px;
+    border-radius: 22px;
+    border: 2px;
+}
+.insert{
+    position: absolute;
+    width: 297px;
+    height: 48px;
+    left: 1009px;
+    top: 834px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: rgba(31, 32, 65, 0.75); 
+}
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 442px;
+    background: white;
+    left: 0px;
+    top: 990px;
+    box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
+}
+.reservation{
+    position: absolute;
+    width: 260px;
+    height: 72px;
+    left: 140px;
+    top: 1060px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+}
