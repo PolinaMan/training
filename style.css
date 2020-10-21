@@ -6,7 +6,7 @@
     top: 0px;
     background-color: white;
 }
-ul, li, a {
+ul, li, a, option, select {
     text-decoration: none;
     display: inline;
     font-family: Montserrat;
@@ -242,7 +242,7 @@ footer{
     height: 442px;
     background: white;
     left: 0px;
-    top: 990px;
+    top: 960px;
     box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
 }
 .reservation{
@@ -257,4 +257,83 @@ footer{
     font-size: 14px;
     line-height: 24px;
     color: rgba(31, 32, 65, 0.75);
+}
+.group1{
+    position: absolute;
+    width: 260px;
+    height: 132px;
+    left: 140px;
+    top: 100px;
+}
+.group2{
+    position: absolute;
+    width: 143px;
+    height: 168px;
+    left: 440px;
+    top: 104px;
+}
+.group3{
+    position: absolute;
+    width: 108px;
+    height: 168px;
+    left: 640px;
+    top: 104px;
+}
+.group4{
+    position: absolute;
+    width: 149px;
+    height: 130px;
+    left: 840px;
+    top: 104px;
+}
+.group5{
+    position: absolute;
+    width: 260px;
+    height: 84px;
+    left: 1040px;
+    top: 104px; 
+}
+.group6{
+    position: absolute;
+    width: 260px;
+    height: 44px;
+    left: 1040px;
+    top: 208px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+hr{
+    position: absolute;
+    top:312px;
+    z-index: 15;
+}
+.note{
+    position: absolute;
+    width: 367px;
+    height: 18px;
+    left: 139px;
+    top: 398px;
+}
+.twit{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1187px;
+    top: 396px;
+}
+.fase{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1231px;
+    top: 396px;
+}
+.inst{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1275px;
+    top: 396px;
 }

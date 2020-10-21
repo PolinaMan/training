@@ -3,17 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <title> toxin </title>
-        <link rel="stylesheet" type="text/css" href="cтили.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <header class="bar">
                 <div class="logo"><img src="Logo.jpg" alt="logo"></div>
                 <ul>
                     <li class="bar1"><a href="">о нас</a></li>
-                    <li class="bar2"><a href="">услуги</a></li>
-                    <li class="bar3"><a href="">вакансии</a></li>
-                    <li class="bar4"><a href="">новости</a></li>
-                    <li class="bar5"><a href="">соглашения</a></li>
+                    <li class="bar2">
+                        <select name="select" size="1">
+                        <option selected value="s1">Услуги</option>
+                        <option value="s2"><a href="">1</a></option>
+                        <option value="s3"><a href="">2</a></option>
+                        <option value="s4"><a href="">3</a></option>
+                        </select>
+                    </li>
+                    <li class="bar3"><a href="">Вакансии</a></li>
+                    <li class="bar4"><a href="">Новости</a></li>
+                    <li class="bar5">
+                        <select name="select" size="1">
+                        <option selected value="s1">Соглашения</option>
+                        <option value="s2"><a href="">1</a></option>
+                        <option value="s3"><a href="">2</a></option>
+                        <option value="s4"><a href="">3</a></option>
+                        </select>
+                    </li>
                 </ul>
                 <button class="button1 bar6">войти</button>
                 <button class="button2 bar7">зарегистрироваться</button>
@@ -28,7 +42,24 @@
                     <p class="departure">выезд</p>
                     <input class="departure2" type="date" required>
                     <p class="visit">гости</p>
-                    <input class="visit2" type="text" value="Сколько гостей" required>
+                    <select class="visit2" name="select" size="1">
+                        <option  value="s1">Сколько гостей</option>
+                        <option value="s2"><p>взрослые</p>
+                            <input type="button" value="-">
+                            <input type="number" step="1" min="1" max="500" name="qantity" value="1" title="Qty">
+                            <input type="button" value="+"> 
+                        </option>
+                        <option value="s3"><p>дети</p>
+                            <input type="button" value="-">
+                            <input type="number" step="1" min="1" max="500" name="qantity" value="1" title="Qty">
+                            <input type="button" value="+">
+                        </option>
+                        <option value="s4"><p>младенцы</p>
+                            <input type="button" value="-">
+                            <input type="number" step="1" min="1" max="500" name="qantity" value="1" title="Qty">
+                            <input type="button" value="+">
+                        </option>
+                    </select>
                     <input class="button2 button3" type="submit" value="подобрать номер">
                 </form>
             </div>
@@ -37,14 +68,14 @@
             </div>
         </selection>
         <footer>
-            <div>
+            <div class="group1">
                 <img src="Logo.jpg" alt="logo">
                 <p>Бронирование номеров в лучшем <br/>
                      отеле 2019 года по версии <br/>
                      ассоциации "отельные взгляды"
                 </p>
             </div>
-            <div>
+            <div class="group2">
                 <p>
                     навигация
                 </p>
@@ -53,7 +84,7 @@
                 <a href=""> Служба поддержки </a><br/>
                 <a href=""> Услуги </a>
             </div>
-            <div>
+            <div class="group3">
                 <p>
                      о нас
                 </p>
@@ -62,7 +93,7 @@
                 <a href=""> Вакансии </a><br/>
                 <a href=""> Инвесторы </a><br/>
             </div>
-            <div>
+            <div class="group4">
                 <p>
                     служба поддержки
                 </p>
@@ -70,21 +101,22 @@
                 <a href=""> Сообщества </a><br/>
                 <a href=""> Связь с нами </a><br/>
             </div>
-            <div>
+            <div class="group5">
                 <p>
                     подписка
                 </p>
                 <p>Получайте специальные<br/>предложения и новости сервиса</p>
-                <form>
+            </div>    
+                <form class="group6">
                     <input type="email">
                 </form>
-            </div>
+            
             <hr/>
-            <div>
-                <img src="Copyright © 2018 Toxin отель. Все права зачищены..jpg" alt="права">
-                <a href=""><img src="твитер.jpg" alt="твитер"></a>
-                <a href=""><img src="фейсбук.jpg" alt="фейсбук"></a>
-                <a href=""><img src="инста.jpg" alt="инста"></a>
+            <div class="reference">
+                <img class="note" src="Copyright © 2018 Toxin .jpg" alt="права">
+                <a class="twit" href=""><img src="twit.jpg" alt="твитер"></a>
+                <a class="fase" href=""><img src="fase.jpg" alt="фейсбук"></a>
+                <a class="inst" href=""><img src="inst.jpg" alt="инста"></a>
             </div>
 
         </footer>
